@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "OpenOCD",
+            "request": "launch",
+            "type": "cortex-debug",
+            "cwd": "${workspaceRoot}",
+            "servertype": "openocd",
+            "executable": "./build/program.elf",
+            "svdFile": "STM32F401.svd",
+            "configFiles": [
+                "C:/software/openocd/scripts/interface/stlink.cfg",
+                "C:/software/openocd/scripts/target/stm32f4x.cfg"
+            ]
+        }
+    ]
+}

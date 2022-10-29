@@ -1,0 +1,10 @@
+{
+    "cortex-debug.armToolchainPath": "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/12.2 mpacbti-bet1/bin",
+    "cortex-debug.openocdPath": "C:/software/openocd/bin/openocd",
+    
+    "files.associations": {
+        "stm32f0xx.h": "c",
+        "stm32f4xx.h": "c"
+    },
+    "cmake.configureOnOpen": true
+}
